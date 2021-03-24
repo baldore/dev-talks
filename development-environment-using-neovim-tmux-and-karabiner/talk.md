@@ -20,10 +20,10 @@
 - Fun... Because why not?
 
 ### <a name="3"></a>Tools
-- [Terminal](./terminal.md)
-- [Karabiner](./karabiner.md)
-- [Tmux](./tmux.md)
 - [Neovim](./neovim.md)
+- [Tmux](./tmux.md)
+- [Karabiner](./karabiner.md)
+- [Terminal](./terminal.md)
 
 ### Managing multiple instances of the same app
 By using **CMD + `** you can change between the instances of the same application. Really useful for multiple browsers or editor instances.
@@ -31,6 +31,8 @@ By using **CMD + `** you can change between the instances of the same applicatio
 ### Persisting the configuration
 A development configuration needs a lot of time and effort, so it's good to have it secure and portable. For this, it's recommended to save your `dotfiles` somewhere.
 There's a lot of options, but personally I use git with a bare repo. You can follow this tutorial to manage your `dotfiles` https://www.atlassian.com/git/tutorials/dotfiles
+
+### All together - Demo
 
 ### Other Tools
 - [Alfred (paid)](https://www.alfredapp.com/)
