@@ -1,8 +1,9 @@
-## Development environment using Neovim, Tmux and Karabiner
+# Development environment using Neovim, Tmux and Karabiner
 
-### Index
+## Index
 1. [Goals of the talk](#1)
 2. [What should you look for in a good development environment?](#2)
+3. [Tools](#3)
 
 ### <a name="1"></a>Goals of the talk
 - Arouse curiosity about the customization of the development environment.
@@ -10,22 +11,27 @@
 - To understand that you can choose to integrate any tool you want. No need to follow everything. If
   you're comfortable with you environment, great!
 
-Note: This talk is not a deep dive in the tools.
+**Note**: This talk is not a deep dive in the tools.
 
-### What to look for in a good development environment?
+### <a name="2"></a>What to look for in a good development environment?
 - Avoid repeating tasks.
 - Comfort.
 - Ergonomics.
 - Fun... Because why not?
 
-## Tools
+### <a name="3"></a>Tools
 - [Terminal](./terminal.md)
 - [Karabiner](./karabiner.md)
 - [Tmux](./tmux.md)
 - [Neovim](./neovim.md)
 
+### Managing multiple instances of the same app
+By using **CMD + `** you can change between the instances of the same application. Really useful for multiple browsers or editor instances.
+
 ### Persisting the configuration
-A development configuration needs a lot of time and effort, depending on your needs, so it's good to have it secure and portable.
+A development configuration needs a lot of time and effort, so it's good to have it secure and portable. For this, it's recommended to save your `dotfiles` somewhere.
+There's a lot of options, but personally I use git with a bare repo. You can follow this tutorial to manage your `dotfiles` https://www.atlassian.com/git/tutorials/dotfiles
 
 ### Other Tools
-- Alfred (paid)
+- [Alfred (paid)](https://www.alfredapp.com/)
+- [KeyboardMaestro (paid)](https://www.keyboardmaestro.com/main/)
