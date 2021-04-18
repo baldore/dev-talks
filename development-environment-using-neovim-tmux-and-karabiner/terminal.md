@@ -25,6 +25,26 @@ Some useful apps are:
 grep --color=auto 'export default' **/*.tsx -n | awk -F : '{ print $1" -H "$2 }' | xargs -n 3 bat
 ```
 
-### TUI Applications
-TODO: Work on this...
+```bash
+ghclone() {
+  TARGET="$1"
 
+  _TMP=$(gh repo list | awk '{ print $1 }' | fzf)
+  if [ -z "$_TMP" ]; then
+    return 1
+  fi
+
+  gh repo clone "$_TMP" "$TARGET"
+
+  return 0
+}
+```
+
+### TUI Applications
+These are applications that use the terminal features to create UIs.
+
+### Examples
+- https://github.com/jesseduffield/lazygit
+- https://github.com/jesseduffield/lazydocker
+- https://htop.dev/
+- https://www.nethack.org/common/index.html
