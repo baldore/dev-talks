@@ -3,9 +3,6 @@
 ## What is Neovim
 It's the editor!
 
-## Why start explaining Neovim?
-Because one of the good things of Neovim (the movement keys and normal mode) can be used in other programs using extensions.
-
 ## Advantages of Neovim
 - Incredibly extensible.
 - Amazing documentation via `:h`.
@@ -25,7 +22,7 @@ Because one of the good things of Neovim (the movement keys and normal mode) can
 - Run `vimtutor`
 - Run `vim +h user-manual`
 
-## Alternatives?
+## I don't want to use this editor
 - Use a plugin for your editor.
     - [VS Code](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
     - [Intellij](https://github.com/JetBrains/ideavim)

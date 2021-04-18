@@ -3,7 +3,7 @@
 ## Index
 TODO: Generate this
 
-### <a name="1"></a>Goals
+### Goals
 - Arouse curiosity about the customization of the development environment.
 - To share some tips and tools that can be helpful to improve or analyze the development environment.
 - To understand that you can choose to integrate any tool you want. No need to follow everything. If
