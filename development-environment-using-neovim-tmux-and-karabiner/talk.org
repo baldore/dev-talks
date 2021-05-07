@@ -37,6 +37,7 @@ Some useful apps are:
 
 ***** Example
 #+begin_src bash
+# make a request to reddit and get the value of "kind"
 curl -A 'random' -s https://www.reddit.com/r/vim.json | jq .kind
 #+end_src
 
