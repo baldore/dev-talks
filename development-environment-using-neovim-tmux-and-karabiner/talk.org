@@ -71,8 +71,10 @@ These are applications that use the terminal features to create UIs.
 It's the editor!
 
 ***** Advantages of Neovim
+- Based on Vim.
 - Incredibly extensible.
-- Amazing documentation via ~:h~.
+- Open source with a great community.
+- Amazing documentation via ~:help~.
 
 ***** Disadvantages
 - Learning curve.
@@ -83,6 +85,7 @@ It's the editor!
 - Window management.
 - Mappings.
 - Jumps.
+-
 - Excellent integration with the UNIX environment.
 
 ***** Where to start?
