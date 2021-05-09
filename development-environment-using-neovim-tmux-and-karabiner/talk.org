@@ -132,3 +132,4 @@ with a bare repository. You can follow this tutorial to manage your
 - [[https://github.com/jlevy/the-art-of-command-line][The art of command line]]
 - [[https://www.youtube.com/watch?v=l8iXMgk2nnY][VIM tutorial: linux terminal tools for bug bounty pentest and redteams with @tomnomnom]]
 - [[https://egghead.io/talks/egghead-save-your-hands-and-save-your-time-rethinking-how-to-use-a-keyboard][Save Your Hands and Save Your Time: Rethinking How to Use a Keyboard - John Lindquist]]
+- [[https://www.atlassian.com/git/tutorials/dotfiles][Manage dotfiles in github - Atlassian]]
