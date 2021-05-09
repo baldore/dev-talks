@@ -25,6 +25,7 @@ One of the best tools for development.
 
 ***** CLI Applications: Unix
 Some useful apps are:
+
 - ~grep~: file pattern searcher.
 - ~curl~: client for URLs. (~curl cheat.sh/<pattern>~ is a good tool).
 - ~find~: find files.
@@ -99,12 +100,22 @@ Use a plugin for your editor.
 
 ~Note~: even if this is a good approach, you won't have access to all the possibilities the editor has. Again, use what you find useful.
 
-**** TODO Tmux
+**** Tmux
+It's a terminal multiplexer. It allows to create and manage multiple terminal instances in the same window.
 
+***** Features
+- Keeps the session alive. Let's say your terminal closes unexpectedly, you can just re-attach to the existing server.
+- Create sessions, windows and panes to manage your processes.
+- Rearrange panes whatever you want. You can also focus in one pane by toggling maximize.
+- Very customizable. Set your own key bindings and add plugins.
+- Create your own scripts to interact with Tmux.
 
 ** Tips and tricks
+*** Karabiner + Goku
+Karabiner is an app that allows you to remap almost anything in OSX. You can modify your keyboard per application, giving you the maximum freedom.
 
-*** TODO Karabiner + Goku
+However... customizing Karabiner is hard. Normally, you have to struggle configuring a verbose json file to do even the minimum change. Here's where [[https://github.com/yqrashawn/GokuRakuJoudo][GokuRakuJoudo (or Goku)]] helps you to write easily the configurations you want. Just by combining these 2, you can do great things to improve your comfort.
+
 *** Moving through multiple instances of the same app
 By using ~CMD + `~ you can change between the instances of the same
 application. Really useful for multiple browsers or editor instances.
@@ -120,3 +131,4 @@ with a bare repository. You can follow this tutorial to manage your
 - [[https://explainshell.com/][ExplainShell]]
 - [[https://github.com/jlevy/the-art-of-command-line][The art of command line]]
 - [[https://www.youtube.com/watch?v=l8iXMgk2nnY][VIM tutorial: linux terminal tools for bug bounty pentest and redteams with @tomnomnom]]
+- [[https://egghead.io/talks/egghead-save-your-hands-and-save-your-time-rethinking-how-to-use-a-keyboard][Save Your Hands and Save Your Time: Rethinking How to Use a Keyboard - John Lindquist]]
